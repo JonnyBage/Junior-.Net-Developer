@@ -1,0 +1,154 @@
+CREATE TABLE [dbo].[Customer] (
+    [CustomerId]   INT          IDENTITY (1, 1) NOT NULL,
+    [FirstName]         VARCHAR (20) NOT NULL,
+    [LastName]         VARCHAR (20) NOT NULL,
+    [DateActive]   DATETIME,
+    [IsWebCustomer]          BIT          NOT NULL,
+    [PreviouslyOrdered] BIT NOT NULL,
+    [IsPalindrome] BIT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([CustomerId] ASC)
+);
+
+GO
+
+CREATE TABLE [dbo].[Colour] (
+    [ColourId]  INT          IDENTITY (1, 1) NOT NULL,
+    [Name]      VARCHAR (10) NOT NULL,
+    [IsEnabled] BIT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([ColourId] ASC)
+);
+
+GO
+
+CREATE TABLE [dbo].[FavouriteColour] (
+    [FavouiteId] INT IDENTITY (1, 1) NOT NULL,
+    [CustomerID] INT NOT NULL,
+    [ColourID]   INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([FavouiteId] ASC),
+    FOREIGN KEY ([ColourID]) REFERENCES [dbo].[Colour] ([ColourId]),
+    FOREIGN KEY ([CustomerID]) REFERENCES [dbo].[Customer] ([CustomerId])
+);
+
+
+GO
+
+INSERT INTO Colour
+VALUES
+('Red',1),
+('Green',1),
+('Blue',1)
+GO
+
+INSERT INTO Customer
+VALUES
+('Willis','Tibbs','2011-02-05',1,0,0),
+('Sharon','Halt','2016-07-26',0,0,0),
+('Patrick','Kerr','2016-08-31',1,1,0),
+('Lilly','Hale','2015-01-01',0,0,0),
+('Joel','Daly','2014-04-14',1,1,0),
+('Imogen','Kent','2015-02-17',0,0,0),
+('George','Edwards','2016-11-05',1,0,0),
+('Gabriel','Franics','2015-05-29',0,0,0),
+('Courtney','Arnold','2014-08-21',1,1,0),
+('Brian','Allen','2013-04-11',1,1,0),
+('Bo','Bob','2017-01-23',1,0,1)
+
+GO
+
+INSERT INTO FavouriteColour
+VALUES
+(1,	1),
+(1,	2),
+(1,	3),
+(2,	1),
+(2,	2),
+(2,	3),
+(3,	2),
+(4,	1),
+(4,	2),
+(4,	3),
+(5,	2),
+(6,	1),
+(7,	2),
+(7,	3),
+(8,	2),
+(9,	1),
+(10,1),
+(10,2),
+(10,3),
+(11,1)
+
+GO
+
+CREATE PROCEDURE [dbo].[InsertCustomer]
+	@firstName varchar(20),
+	@lastName varchar(20),
+	@dateActive datetime,
+	@isWebCustomer bit,
+	@previouslyOrdered bit,
+	@isPalindrome bit,
+	@customerID int OUTPUT
+AS
+	insert into Customer
+		(FirstName, LastName, DateActive, IsWebCustomer, PreviouslyOrdered, IsPalindrome)
+	VALUES
+		(@firstName, @lastName, @dateActive, @isWebCustomer, @previouslyOrdered, @isPalindrome)
+
+SELECT @customerID = SCOPE_IDENTITY();
+GO
+
+CREATE PROCEDURE [dbo].[InsertFavouriteColour]
+	@customerID int,
+	@colourID int
+AS
+	insert into FavouriteColour (CustomerID, ColourID) VALUES (@customerID, @colourID)
+GO
+
+CREATE PROCEDURE [dbo].[RemoveFavouriteColoursByCustomerID]
+	@customerID int
+AS
+	DELETE FROM FavouriteColour WHERE CustomerID=@customerID;
+GO
+
+CREATE PROCEDURE [dbo].[SelectCustomerByCustomerId]
+	@customerID int
+AS
+	SELECT * From Customer Where CustomerId = @customerID
+GO
+
+CREATE PROCEDURE [dbo].[SelectFavouriteColoursByCustomerID]
+	@CustomerID int = 0
+AS
+	SELECT Colour.Name, Colour.ColourId
+	FROM FavouriteColour
+	Inner Join Colour on FavouriteColour.ColourID = Colour.ColourId
+	Where CustomerID = @CustomerID
+GO
+
+CREATE PROCEDURE [dbo].[SelectTop20Customers]
+	
+AS
+	SELECT TOP 20 * FROM Customer Order BY CustomerId DESC
+
+CREATE PROCEDURE [dbo].[UpdateCustomerByCustomerId]
+	@customerID int,
+	@firstName varchar(20),
+	@lastName varchar(20),
+	@previouslyOrdered bit,
+	@isWebCustomer bit,
+	@activeDate datetime,
+	@isPalindrome bit
+
+AS
+	UPDATE Customer
+	SET
+		FirstName=@firstName,
+		LastName=@lastName,
+		PreviouslyOrdered=@previouslyOrdered,
+		IsWebCustomer=@isWebCustomer,
+		DateActive=@activeDate,
+		IsPalindrome=@isPalindrome
+	WHERE
+		CustomerId=@customerID
+GO
+

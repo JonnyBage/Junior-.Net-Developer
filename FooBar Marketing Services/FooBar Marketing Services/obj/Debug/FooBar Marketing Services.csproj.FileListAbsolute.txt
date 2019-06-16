@@ -1,0 +1,51 @@
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\FooBar Marketing Services.dll.config
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\FooBar Marketing Services.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\FooBar Marketing Services.pdb
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Antlr3.Runtime.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\EntityFramework.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\EntityFramework.SqlServer.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Newtonsoft.Json.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Owin.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\System.Web.Optimization.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\System.Web.Providers.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\WebGrease.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\System.Web.Optimization.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Antlr3.Runtime.pdb
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Newtonsoft.Json.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\EntityFramework.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\EntityFramework.SqlServer.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\obj\Debug\FooBar Marketing Services.csprojResolveAssemblyReference.cache
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\obj\Debug\FooBar Marketing Services.dll
+C:\Users\Jonny\Desktop\Junior .Net Developer\J Bage - Junior Dev .Net\FooBar Marketing Services\FooBar Marketing Services\obj\Debug\FooBar Marketing Services.pdb

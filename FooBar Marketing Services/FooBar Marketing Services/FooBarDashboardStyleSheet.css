@@ -1,0 +1,98 @@
+﻿body
+{
+    font-family: Verdana,arial;
+    font-size: 12px;
+    color: #000084;
+}
+
+h1
+{
+    color: #355E7B; 
+}
+
+h2
+{
+    color: #355E7B; 
+}
+
+.tableHeader
+{
+    background-color: #DCA8B7;
+}
+.searchTableBlue
+{
+    /*border: 1px solid #9898C3;*/
+	background-color: #EEF5FE;
+    color: #000084;
+    /*width: 60%;*/
+    padding:2px;
+}
+.textDivRed
+{
+    background-color: #F3DFE1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E6B0B6;
+    color: #B4201C;
+    padding:7px;
+    padding-bottom:0px;
+}
+
+.textRed
+{
+    color: #B4201C;
+}
+
+
+.textGreen
+{
+    color: #136207;
+}
+
+/*Gridview Related Styles*/
+.gridView
+{
+	border-color: #e2e2e2;
+	padding:5px;
+	border-width:1px;
+	border-collapse:collapse;
+	border-style:solid;	
+}
+.tableHeaderRow
+{
+    background-color: #EEF5FE;
+    color: #435F87;
+    font-weight: bold;
+    height: 20px; 
+}
+.rowStyle
+{
+    background-color: #FFFFFF;    
+}
+.altRowStyle
+{
+    background-color: #F0F2F8;
+}
+.selectedRowStyle
+{
+    background-color: #A2F486;       
+}
+
+/* BUTTONS */
+.standardButton
+{
+    background-color: #00457c;
+    border: solid 2px #00afef;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;    
+    padding: 0px;
+    width: 85px;
+    text-align: center;
+	height: 22px;
+}
